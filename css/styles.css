@@ -44,6 +44,8 @@ margin: 30px 200px 0px 200px;
 
 .homepage1{
   margin: 20px 50px 0px 270px;
+  font-family: 'News Cycle', sans-serif;
+
 }
 
 .team_member {
@@ -72,7 +74,8 @@ margin: 30px 200px 0px 200px;
   transition: all .2s ease-out .1s;
    -moz-transition: all .2s ease-out .1s;
    -webkit-transition: all .2s ease-out .1s;
-  font-size: 1.125em;
+  font-size:17px;
+  text-align: center;
 }
 
 .info h6 {
@@ -100,20 +103,13 @@ margin: 30px 200px 0px 200px;
   background: rgba(19,148,119,0.9);
 }
 
-.info_reveal h6 {
-  padding: 20px 8px 5px 8px;
-  line-height: 1.1em;
-		margin-bottom: 20px;
-		color: #fff;
-  font-size: 1em;
-}
-
 .info_reveal p {
   padding:0 8px;
   font-size:15px;
   line-height: 1.2em;
   color: #073a2e;
   font-weight:400;
+
 }
 
 .info_reveal a {
