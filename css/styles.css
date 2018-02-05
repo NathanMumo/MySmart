@@ -1,3 +1,6 @@
+.container-fluid{
+  width: auto;
+}
 nav {
   padding: 21px;
   text-align: center;
@@ -108,7 +111,7 @@ margin: 30px 200px 0px 200px;
   font-size:15px;
   line-height: 1.2em;
   color: #073a2e;
-  font-weight:400;
+  font-weight:500;
 
 }
 
@@ -166,4 +169,15 @@ margin: 30px 200px 0px 200px;
   transition: opacity .2s linear 0s;
    -moz-transition: opacity .2s linear 0s;
    -webkit-transition: opacity .2s linear 0s;
+}
+#footer{
+  margin-top: 300px;
+  background-image: url(https://thumbor.forbes.com/thumbor/960x0/smart/https%3A%2F%2Fblogs-images.forbes.com%2Fharoldstark%2Ffiles%2F2017%2F05%2Fsmarthome-1-1200x589.jpg%3Fwidth%3D960);
+  height: 90px;
+}
+#info{
+  text-align: center;
+  color: #ffffff;
+  padding-top: 68px;
+
 }
