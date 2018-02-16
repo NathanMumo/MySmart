@@ -1,0 +1,51 @@
+body {
+	background-color: #24BAFF, position:absolute;
+	color: #555;
+	font-size: 1.1em;
+	margin: 80px 10px;
+	align-content: center;
+	background-image: url(Cir.jpg);
+	font-family: 'News Cycle', sans-serif;
+
+}
+* {
+	box-sizing: border-box;
+}
+hr {
+	margin: 50px 0;
+}
+.container {
+	font-weight: 400px;
+	margin-top: 40%;
+	margin: 40px auto 0;
+	width: 90%;
+	height: 450px;
+	padding: 3em;
+	overflow: scroll;
+	background-color: white;
+	-webkit-clip-path: polygon(17% 13%, 33% 9%, 58% 21%, 84% 20%, 83% 63%, 66% 76%, 15% 83%, 25% 45%);
+	clip-path: polygon(17% 13%, 33% 9%, 58% 21%, 84% 20%, 83% 63%, 66% 76%, 15% 83%, 25% 45%);
+	-webkit-transition: -webkit-clip-path .6s ease-out;
+	transition: -webkit-clip-path .6s ease-out; /* needs to be prefixed otherwise it's not transitioned in Chrome *//* transition: clip-path .6s ease-out; */
+
+}
+.container:hover {
+	-webkit-clip-path: polygon(12% 6%, 29% 14%, 71% 8%, 91% 29%, 84% 85%, 54% 64%, 10% 92%, 5% 43%);
+	clip-path: polygon(12% 6%, 29% 14%, 71% 8%, 91% 29%, 84% 85%, 54% 64%, 10% 92%, 5% 43%);
+}
+h1 {
+	width: 50%;
+	text-align: center;
+	margin: 4em auto;
+}
+img {
+	width: 100%;
+	height: 300px;
+}
+
+p{
+	width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+
+}
