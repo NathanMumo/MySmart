@@ -1,15 +1,17 @@
+
 var timeout;
 
 function myFunction() {
 
-  timeout = setTimeout(showPage, 2500);
+  timeout = setTimeout(showPage, 250);
 }
 
 function showPage() {
   document.getElementById("loader").style.display = "none";
 $(document).ready(function() {
-    $('#myDiv').fadeIn(2500);
+    $('#myDiv').fadeIn(250);
     document.getElementById("myDiv").style.display = "block";
+
 });
 }
 function toggle() {
