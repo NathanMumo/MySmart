@@ -1,11 +1,14 @@
+#Bg{
+  background-image: url(Cir.jpg);
+}
+
 #Wrapper {
   color: #555;
   font-size: 1.1em;
   align-content: center;
   font-family: 'News Cycle', sans-serif;
-  padding-top: 100px;
-  background-image: url(Cir.jpg);
-margin-top: 10px;
+  padding-top: 100px; 
+  margin-top: 10px;
 
 }
 * {
